@@ -1,0 +1,31 @@
+/* line 2, /neeah/stylesheets/images.css.scss */
+.image-row .frame {
+  margin: 0;
+  height: 400px;
+  /* equals max image height */
+  width: 100%;
+  white-space: nowrap;
+  text-align: center; }
+/* line 11, /neeah/stylesheets/images.css.scss */
+.image-row .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+/* line 17, /neeah/stylesheets/images.css.scss */
+.image-row img {
+  vertical-align: middle;
+  max-height: 400px; }
+/* line 22, /neeah/stylesheets/images.css.scss */
+.image-row #a {
+  background-color: #A9AFA2; }
+  /* line 25, /neeah/stylesheets/images.css.scss */
+  .image-row #a img {
+    width: 255px;
+    height: 268px; }
+/* line 31, /neeah/stylesheets/images.css.scss */
+.image-row #b {
+  background-color: #F3FEFF; }
+  /* line 34, /neeah/stylesheets/images.css.scss */
+  .image-row #b img {
+    width: 291px;
+    height: 291px; }
