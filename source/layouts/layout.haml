@@ -12,6 +12,10 @@
     = javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'
     = stylesheet_link_tag :site
     = stylesheet_link_tag :images
+    = stylesheet_link_tag :custom
     = javascript_include_tag :all
   %body{:class => page_classes}
-    = yield
+    #wrapper
+      = yield
+    #footer
+      = partial 'layouts/footer'
