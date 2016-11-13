@@ -16,5 +16,4 @@ after_success:
   - cd build
   - git add -A
   - git commit -m 'Update'
-  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/ayemos/neeah.git
-    gh-pages'
+  - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && git push --quiet --force https://$GH_TOKEN@github.com/ayemos/neeah.git gh-pages'
