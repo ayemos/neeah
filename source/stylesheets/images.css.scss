@@ -1,0 +1,39 @@
+.image-row {
+  .frame {
+    margin: 0;
+    height: 400px;      /* equals max image height */
+    width: 100%;
+    white-space: nowrap;
+
+    text-align: center;
+  }
+
+  .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  img {
+    vertical-align: middle;
+    max-height: 400px;
+  }
+
+  #a {
+    background-color: #A9AFA2;
+
+    img {
+      width: 255px;
+      height: 268px;
+    }
+  }
+
+  #b {
+    background-color: #F3FEFF;
+
+    img {
+      width: 291px;
+      height: 291px;
+    }
+  }
+}
